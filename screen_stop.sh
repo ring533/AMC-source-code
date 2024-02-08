@@ -1,0 +1,2 @@
+# screen -ls | grep Ring | awk -F' ' '{print $1}' | awk -F. '{print $2}'| awk '{print "echo screen -S "$1" -X quit"}'|sh
+screen -ls | grep Ring | awk -F' ' '{print $1}' | awk -F. '{print "screen -r "$2" -p 0 -X kill"}'|sh

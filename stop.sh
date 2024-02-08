@@ -1,0 +1,1 @@
+qstat |grep main_f |awk -F' ' '{print "qdel " $1}'|sh
