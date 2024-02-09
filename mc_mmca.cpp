@@ -6,8 +6,8 @@
 #include "param_list.h"
 
 #define N_node 1000 //
-#define T 401
-#define R 30
+#define T 1000
+#define R 50
 #define MAX_PROCESS_COUNT 5
 int matrix1[N_node][500];
 int matrix2[N_node][500];
